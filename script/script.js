@@ -3,10 +3,13 @@
 // Bonus:
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
-// istanzio il mio Vue
+// istanzio il mio Vue e dentro metto il mio data
 var app = new Vue(
   {
-  element: "#root",
+  el: "#root",
+  data:{
+    message: "Benvenuti in Vue"
+    }
   }
 );
 console.log(app);
