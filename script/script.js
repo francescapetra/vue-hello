@@ -8,7 +8,8 @@ var app = new Vue(
   {
   el: "#root",
   data:{
-    message: "Benvenuti in Vue"
+    message: "Benvenuti in Vue Club",
+    immagine: "img/vue.png",
     }
   }
 );
